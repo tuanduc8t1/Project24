@@ -1,0 +1,31 @@
+{
+  "name": "product-management-b1-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "mongoose-slug-updater": "^3.3.0",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
