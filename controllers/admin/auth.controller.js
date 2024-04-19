@@ -14,8 +14,7 @@ module.exports.login = async (req, res) => {
 module.exports.loginPost = async (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
-  if(email == "admin@gmail.com" && password == "0"){
-    res.cookie("token", user.token);
+  if(email == "admin@gmail.com" && password == "24062006"){
     res.redirect(`/${systemConfig.prefixAdmin}/dashboard`);
   }
   const user = await Account.findOne({
