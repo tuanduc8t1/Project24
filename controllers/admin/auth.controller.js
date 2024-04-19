@@ -1,4 +1,3 @@
-/*
 const md5 = require("md5");
 const Account = require("../../models/account.model");
 
@@ -15,7 +14,7 @@ module.exports.login = async (req, res) => {
 module.exports.loginPost = async (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
-  /*
+  
   const user = await Account.findOne({
     email: email,
     deleted: false
@@ -47,4 +46,4 @@ module.exports.logout = async (req, res) => {
   res.clearCookie("token");
   res.redirect(`/${systemConfig.prefixAdmin}/auth/login`);
 };
-*/
+
