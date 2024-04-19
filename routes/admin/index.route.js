@@ -41,5 +41,5 @@ module.exports = (app) => {
     accountRoutes
   );
 
-  app.use(PATH_ADMIN + "/auth", authRoutes);
+  //app.use(PATH_ADMIN + "/auth", authRoutes);
 }
