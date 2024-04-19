@@ -1,3 +1,4 @@
+/*
 const md5 = require("md5");
 const Account = require("../../models/account.model");
 
@@ -37,7 +38,6 @@ module.exports.loginPost = async (req, res) => {
     res.redirect("back");
     return;
   }
-  */
   res.cookie("token", user.token);
   res.redirect(`/${systemConfig.prefixAdmin}/dashboard`);
 };
@@ -47,3 +47,4 @@ module.exports.logout = async (req, res) => {
   res.clearCookie("token");
   res.redirect(`/${systemConfig.prefixAdmin}/auth/login`);
 };
+*/
