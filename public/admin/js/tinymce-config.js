@@ -1,6 +1,5 @@
 tinymce.init({
   selector: 'textarea[textarea-mce]',
-  apiKey: 'stpmdjk86rioqggnnmbaasnh2ciiczbes7uu8r55s27kj730',
   plugins: 'image',
   image_title: true,
   automatic_uploads: true,
